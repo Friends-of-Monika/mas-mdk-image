@@ -44,6 +44,12 @@ jobs:
           username: "${{ github.actor }}"
           password: "${{ secrets.GITHUB_TOKEN }}"
 
+      - name: "Login to DockerHub Container Registry"
+        uses: "docker/login-action@v2"
+        with:
+          username: "dreamscached"
+          password: "${{ secrets.DOCKER_HUB_TOKEN }}"
+
       - name: "Build Docker image"
         if: "steps.package-exists.outputs.exists == 'false'"
         uses: docker/build-push-action@v2
