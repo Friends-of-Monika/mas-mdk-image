@@ -10,6 +10,6 @@ ARG MAS_RELEASE
 ADD install-mas.sh /tmp/install-mas.sh
 RUN /tmp/install-mas.sh && rm /tmp/install-mas.sh
 
-FROM scratch
+FROM ubuntu:22.04
 COPY --from=ddlc-mod-base /mdk /mdk
 COPY --from=mas /game /mdk/mas/game
