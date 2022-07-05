@@ -4,7 +4,7 @@ RUN mkdir /mdk && \
     mv /renpy /mdk/renpy
 
 FROM alpine:3.16 AS mas
-RUN apk add curl unzip perl docker && service docker start
+RUN apk add curl unzip perl docker
 
 ARG MAS_RELEASE
 ADD install-mas.sh /tmp/install-mas.sh
