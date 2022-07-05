@@ -50,7 +50,13 @@ jobs:
         with:
           builder: "${{ steps.buildx.outputs.name }}"
           file: "Dockerfile"
-          tags: "ghcr.io/friends-of-monika/mas-mdk:${{ steps.mas-release.outputs.release }},ghcr.io/friends-of-monika/mas-mdk:latest"
+          tags: |
+            ghcr.io/friends-of-monika/mas-mdk:latest,
+            ghcr.io/friends-of-monika/mas-mdk:master,
+            ghcr.io/friends-of-monika/mas-mdk:${{ steps.mas-release.outputs.release }},
+            friendsofmonika/mas-mdk:latest,
+            friendsofmonika/mas-mdk:master,
+            friendsofmonika/mas-mdk:${{ steps.mas-release.outputs.release }}
           context: .
           build-args: "MAS_RELEASE=${{ steps.mas-release.outputs.release }}"
           push: true
