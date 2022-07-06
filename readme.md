@@ -35,6 +35,14 @@ Resource paths:
   * `/mdk/mas` &mdash; Monika After Story installed over DDLC
   * `/mdk/renpy` &mdash; Ren'Py SDK suitable for submod code checking
 
+You can pull this image from GitHub Container Registry or DockerHub, as you like:
+
+```shell
+docker pull ghcr.io/friends-of-monika/mas-mdk:latest
+# ... or ...
+docker pull friendsofmonika/mas-mdk:latest
+```
+
 
 [1]: https://github.com/multimokia
 [2]: https://hub.docker.com/r/multimokia/ddlc-mod-base
