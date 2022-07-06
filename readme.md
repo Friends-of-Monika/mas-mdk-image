@@ -1,4 +1,7 @@
 # MAS MDK Image
+[![Docker pulls](https://img.shields.io/docker/pulls/friendsofmonika/mas-mdk)][4]
+[![Docker image size](https://img.shields.io/docker/image-size/friendsofmonika/mas-mdk/latest)][4]
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/friends-of-monika/mas-mdk-image/Build%20Docker%20image%20on%20push)][5]
 
 Monika After Story Mod Development Kit Image is a project aimed to provide easy
 to use Docker image with necessary Ren'Py SDK and Doki Doki Literature Club
@@ -24,3 +27,5 @@ people/organization work used in this project.
 [1]: https://github.com/multimokia
 [2]: https://hub.docker.com/r/multimokia/ddlc-mod-base
 [3]: https://github.com/Friends-of-Monika/mas-mdk-image/blob/master/license.txt
+[4]: https://hub.docker.com/repository/docker/friendsofmonika/mas-mdk
+[5]: https://github.com/Friends-of-Monika/mas-mdk-image/actions/workflows/push-build.yml
