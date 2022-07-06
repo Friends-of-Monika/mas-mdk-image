@@ -1,8 +1,8 @@
 # MAS MDK Image
-[![Discord server](https://discordapp.com/api/guilds/970747033071804426/widget.png?style=shield)][6]
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/friends-of-monika/mas-mdk-image/Build%20Docker%20image%20on%20push)][5]
 [![Docker pulls](https://img.shields.io/docker/pulls/friendsofmonika/mas-mdk)][4]
 [![Docker image size](https://img.shields.io/docker/image-size/friendsofmonika/mas-mdk/latest)][4]
+[![Discord server](https://discordapp.com/api/guilds/970747033071804426/widget.png?style=shield)][6]
 
 Monika After Story Mod Development Kit Image is a project aimed to provide easy
 to use Docker image with necessary Ren'Py SDK and Doki Doki Literature Club
