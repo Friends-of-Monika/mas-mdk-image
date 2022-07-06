@@ -24,6 +24,17 @@ title/game and are not associated with Team Salvato in any way. [Project license
 only applies to project files stored in this repository and do not cover other
 people/organization work used in this project.
 
+## Usage
+
+This image is based off Ubuntu 22.04 image and includes [@multimokia][1]'s
+[ddlc-mod-base][2] contents, with MAS content being added in there as well
+powered by that repository scripts and Dockerfile.
+
+Resource paths:
+
+  * `/mdk/mas` &mdash; Monika After Story installed over DDLC
+  * `/mdk/renpy` &mdash; Ren'Py SDK suitable for submod code checking
+
 
 [1]: https://github.com/multimokia
 [2]: https://hub.docker.com/r/multimokia/ddlc-mod-base
